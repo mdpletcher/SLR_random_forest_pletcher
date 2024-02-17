@@ -54,3 +54,6 @@ def rf(_data):
     print(f"Random forest model runtime: {toc - tic:0.2f} sec")
 
     return slr
+
+# Call rf function
+slr = rf(data)
