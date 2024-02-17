@@ -5,7 +5,7 @@ This repository is the code associated with the [WAF](https://journals.ametsoc.o
 
 ## Motivation
 
-The accuracy of current operational SLR methods is largely unknown over the western U.S. and over complex terrain. In this study, we validate operational SLR methods and a newly developed random forest (RF) based SLR algorithm using high quality snowfall observations at a mountain site in Little Cottonwood Canyon, Utah. We find the RF-based SLR method produces more accurate SLR forecasts at this location, which can be used by forecasters and avalanche personnel. 
+The accuracy of current operational SLR methods is largely unknown over the western U.S. and over complex terrain. In this study, we validate operational SLR methods and a newly developed random forest (RF) based SLR algorithm using high quality snowfall observations at a mountain site in Little Cottonwood Canyon, Utah. We find the RF-based SLR method produces more accurate SLR forecasts at this location, which can be used by forecasters and snow-safety personnel. 
 
 ## Background on example dataset
 
