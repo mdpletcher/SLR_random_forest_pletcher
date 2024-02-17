@@ -9,7 +9,7 @@ The accuracy of current operational SLR methods is largely unknown over the west
 
 ## Background on example dataset
 
-We've provided a sample dataset that was built using [HRRR BUFKIT data](https://meteor.geol.iastate.edu/~ckarsten/bufkit/bufkit.html)
+We've provided a sample dataset (sample_data.pd) that was built using [HRRR BUFKIT data](https://meteor.geol.iastate.edu/~ckarsten/bufkit/bufkit.html)
 
 Instead of using the HRRR's native grids, we used BUFKIT files because of their smaller file size (~0.2 MB), increased vertical resolution, and hourly temporal resolution. 
 The BUFKIT data was extracted from the Alta BUFKIT locaton.
