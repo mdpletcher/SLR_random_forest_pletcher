@@ -11,7 +11,7 @@ using 10 days of HRRR BUFKIT forecasts (available at https://meteor.geol.iastate
 Each day contained 12 hours (12-24-h forecasts) of data that were obtained from the ALTA BUFKIT location. 
 The six predictor variables contained are:
 
-1. Temperature interpolated to 0.5-km AGL Alta-Collins (T05K, in Kelvin)
+1. Temperature interpolated to 0.5-km AGL Alta-Collins (T05K, Kelvin)
 2. Temperature interpolated to 1-km AGL Alta-Collins (T1K, Kelvin)
 3. Temperature interpolated to 2-km AGL Alta-Collins (T2K, Kelvin)
 4. Wind interpolated to 0.5-km AGL Alta-Collins (SPD05K, m/s)
