@@ -17,3 +17,5 @@ The BUFKIT data was extracted from the Alta BUFKIT locaton.
 ## Notes
 * Because the model was trained on 12-h snowfall observations, we recommend using 1-h predictor variables integrated over 12-h time periods or 12-h mean predictor variables as features for this model.
 * While this model can be used to predict SLR in any snow climate, it may produce skewed predictions when applied to regions with different snow climatologies (i.e., regions that experience winter storms that feature warm air aloft). CLN is a very cold site and its predictions take that into account.
+
+Questions? Email me at michael.pletcher@utah.edu
