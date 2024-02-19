@@ -3,7 +3,7 @@
 ## Introduction
 This repository is the code associated with the [WAF](https://journals.ametsoc.org/view/journals/wefo/wefo-overview.xml) manuscript titled: "Validation of cool-season snowfall forecasts at a high-elevation site in Utah's Little Cottonwood Canyon" written by Pletcher, M. D., Veals, P. G., Wessler, M., Church, D., Harnos, K., Correia Jr., J., Chase, R. J., and W. James Steenburgh. *in review*. 
 
-## Motivation
+## Summary
 
 In this study, we developed a random forest based snow-to-liquid ratio (SLR) algorithm using high quality snowfall observations at a mountain site in Little Cottonwood Canyon, UT [(Wassserstein and Steenburgh 2023)](https://hive.utah.edu/concern/datasets/0r967383v) and the ERA5 reanalysis [(Hersbach et al. 2018)](https://doi.org/10.24381/cds.bd0915c6).
 
