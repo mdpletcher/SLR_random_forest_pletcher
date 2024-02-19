@@ -5,7 +5,7 @@ This repository is the code associated with the [WAF](https://journals.ametsoc.o
 
 ## Motivation
 
-The accuracy of current operational SLR methods is largely unknown over the western U.S. and over complex terrain. In this study, we validate operational SLR methods and a newly developed random forest (RF) based SLR algorithm using high quality snowfall observations at a mountain site in Little Cottonwood Canyon, Utah. We find the RF-based SLR method produces more accurate SLR forecasts at this location, which can be used by forecasters and snow-safety personnel. 
+In this study, we developed a random forest based snow-to-liquid ratio (SLR) algorithm using high quality snowfall observations at a mountain site in Little Cottonwood Canyon, UT [Wassserstein and Steenburgh 2023](https://hive.utah.edu/concern/datasets/8s45q882q) and the ERA reanalysis [Hersbach et al. 2018](https://doi.org/10.24381/cds.bd0915c6)
 
 ## Background on example dataset
 
@@ -15,7 +15,10 @@ Instead of using the HRRR's native grids, we used BUFKIT files because of their 
 The BUFKIT data was extracted from the Alta BUFKIT locaton.
 
 ## Notes
-* Because the model was trained on 12-h snowfall observations, we recommend using 1-h predictor variables integrated over 12-h time periods or 12-h mean predictor variables as features for this model.
-* While this model can be used to predict SLR in any snow climate, it may produce skewed predictions when applied to regions with different snow climatologies (i.e., regions that experience winter storms that feature warm air aloft). CLN is a very cold site and its predictions take that into account.
+* The model was trained using 12-h snowfall and liquid precipitaton equivalent observations, but we typically apply it using 1-h predictor variables to produce high-frequency SLR and snowfall forecasts, although it can be applied at lower temporal frequencies.
+* While this model can be used to predict SLR in any snow climate, it may produce skewed predictions when applied to regions with different snow climatologies (e.g., regions that experience winter storms that feature warm air aloft).
 
-Questions? Email me at michael.pletcher@utah.edu
+## Acknowledgments
+* The research done to develop this model would not have been possible without Alta Ski Area and the hard work of Alta's ski patrol. We also acknowledge [scikit-learn](https://doi.org/10.48550/arXiv.1201.0490) and the availability of the ERA5 reanalysis for algorithm testing and development.
+
+Questions? Email me at michael.pletcher@utah.ed
