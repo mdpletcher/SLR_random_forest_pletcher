@@ -5,7 +5,7 @@ This repository is the code associated with the [WAF](https://journals.ametsoc.o
 
 ## Motivation
 
-In this study, we developed a random forest based snow-to-liquid ratio (SLR) algorithm using high quality snowfall observations at a mountain site in Little Cottonwood Canyon, UT [Wassserstein and Steenburgh 2023](https://hive.utah.edu/concern/datasets/8s45q882q) and the ERA reanalysis [Hersbach et al. 2018](https://doi.org/10.24381/cds.bd0915c6)
+In this study, we developed a random forest based snow-to-liquid ratio (SLR) algorithm using high quality snowfall observations at a mountain site in Little Cottonwood Canyon, UT [(Wassserstein and Steenburgh (2023))](https://hive.utah.edu/concern/datasets/8s45q882q) and the ERA reanalysis [(Hersbach et al. (2018))](https://doi.org/10.24381/cds.bd0915c6)
 
 ## Background on example dataset
 
