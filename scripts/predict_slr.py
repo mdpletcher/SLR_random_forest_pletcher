@@ -13,7 +13,7 @@ import pandas as pd
 import time
 
 # Import sample data
-data = pd.read_pickle('/path/to/sample_data.pd')
+data = pd.read_pickle('~/SLR_random_forest_pletcher/datasets/sample_data.pd')
 
 # Random forest function
 def rf(_data):
@@ -28,9 +28,9 @@ def rf(_data):
     '''
 
     # Load model components
-    model  = np.load('/path/to/RF_SLR_model.pickle', allow_pickle = True)
-    keys   = np.load('/path/to/RF_SLR_keys.npy', allow_pickle = True)
-    scaler = np.load('/path/to/RF_SLR_scaler.npy', allow_pickle = True)[()]
+    model  = np.load('~/SLR_random_forest_pletcher/model_components/RF_SLR_model.pickle', allow_pickle = True)
+    keys   = np.load('~/SLR_random_forest_pletcher/model_components/RF_SLR_keys.npy', allow_pickle = True)
+    scaler = np.load('~/SLR_random_forest_pletcher/model_components/RF_SLR_scaler.npy', allow_pickle = True)[()]
 
     # Define empty column for predicted SLR
     _data['slr_rf'] = np.nan
