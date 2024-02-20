@@ -5,17 +5,16 @@ This repository is the code associated with the [WAF](https://journals.ametsoc.o
 
 ## Summary
 
-In this study, we developed a random forest based snow-to-liquid ratio (SLR) algorithm using high quality snowfall observations at a mountain site in Little Cottonwood Canyon, UT [(Wassserstein and Steenburgh 2023)](https://hive.utah.edu/concern/datasets/0r967383v) and the ERA5 reanalysis [(Hersbach et al. 2018)](https://doi.org/10.24381/cds.bd0915c6).
+In this study, we developed a random forest based snow-to-liquid ratio (SLR) algorithm using high quality snowfall observations at a mountain site in Little Cottonwood Canyon, UT [(Wassserstein and Steenburgh 2023)](https://hive.utah.edu/concern/datasets/0r967383v) and the ERA5 reanalysis [(Hersbach et al. 2018)](https://doi.org/10.24381/cds.bd0915c6). Details are provided in Pletcher et al. (2024).
 
 ## Background on example dataset
 
 We've provided a sample dataset (sample_data.pd) that was built using [HRRR BUFKIT data](https://meteor.geol.iastate.edu/~ckarsten/bufkit/bufkit.html).
 
-Instead of using the HRRR's native grids, we used BUFKIT files because of their smaller file size (~0.2 MB), increased vertical resolution, and hourly temporal resolution. 
-The BUFKIT data was extracted from the Alta BUFKIT locaton.
+We used BUFKIT files rather than HRRR 3D grids because of their smaller file size (~0.2 MB), increased vertical resolution, and hourly temporal resolution. 
 
 ## Notes
-* The model was trained using 12-h snowfall and liquid precipitaton equivalent observations, but we typically apply it using 1-h predictor variables to produce high-frequency SLR and snowfall forecasts, although it can be applied at lower temporal frequencies.
+* The model was trained using 12-h SLR and mean ERA5 variables, but we typically apply it using 1-h predictor variables to produce high-frequency SLR and snowfall forecasts, although it can be applied at lower temporal frequencies.
 * While this model can be used to predict SLR in any snow climate, it may produce skewed predictions when applied to regions with different snow climatologies (e.g., regions that experience winter storms that feature warm air aloft).
 
 ## Acknowledgments
